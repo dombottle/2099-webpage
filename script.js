@@ -1,6 +1,6 @@
 // Highlight active nav link
 (function () {
-  const current = window.location.pathname.split("/").pop() || "home.html";
+  const current = window.location.pathname.split("/").pop() || "index.html";
   document.querySelectorAll(".nav-btn").forEach(link => {
     if (link.getAttribute("href") === current) link.classList.add("active");
   });

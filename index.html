@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>2099.mp3 — Shows</title>
+  <title>2099.mp3 — Home</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700;800&display=swap" rel="stylesheet">
@@ -11,12 +11,14 @@
 </head>
 <body>
 
-  <header class="site-title">
-    <h1>2099.mp3</h1>
-    <p>Band site — official hub</p>
-  </header>
+ <header class="site-title title-centered">
+  <h1>2099.mp3</h1>
+  <p>Band site — official hub</p>
+  <img class="logo-right" src="Futuristic metallic 2099 logo.png" alt="2099 logo">
+</header>
 
- <nav class="navbar">
+
+  <nav class="navbar">
     <div class="nav-grid">
       <a class="nav-btn" href="socials.html">Socials<small>Links</small></a>
       <a class="nav-btn" href="shows.html">Shows<small>Upcoming dates</small></a>
@@ -27,13 +29,13 @@
   </nav>
 
   <main class="main">
-    <section class="card">
-      <h2>Shows</h2>
-      <p>
-        Put upcoming show dates, venues, and ticket links here.
-      </p>
-    </section>
-  </main>
+  <section class="hero">
+    <div class="slideshow" id="slideshow">
+      <img class="slide active" id="slideA" alt="Band photo">
+      <img class="slide" id="slideB" alt="Band photo">
+    </div>
+  </section>
+</main>
 
   <script src="script.js"></script>
 </body>
